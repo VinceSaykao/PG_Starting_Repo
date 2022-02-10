@@ -23,3 +23,14 @@ app.listen(PORT, () => {
     console.log('up and running on port', PORT);
 });
 
+
+// Create(POST) = INSERT
+// Read (GET) = SELECT
+// Update (PUT) = UPDATE
+// Delete (DELETE) = DELETE
+
+// route parameter will help us give us additional info for GET request
+// ex. want specific song -> server gets specific id for song -> database searches and gives back
+// *** req.params is for DELETE, PUT, GET
+// *** req.body is for POST, PUT
+
