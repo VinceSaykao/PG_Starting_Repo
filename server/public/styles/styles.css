@@ -1,8 +1,15 @@
 body{
     margin: 50px;
+    background-image: linear-gradient(70deg, #444,skyblue,rgb(174, 0, 255));
 }
 #tableWrapper, #tableWrapper td{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
 }
+
+input {
+    background-color: purple;
+}
+
+
